@@ -117,7 +117,7 @@ public class FileClient {
         
         String choice;
         while (isConnected) {
-            System.out.print("\n> Enter your choice (1-6): ");
+            System.out.print("\n> Enter your choices (1-6): ");
             choice = scanner.nextLine().trim();
             
             if (choice.isEmpty()) {
